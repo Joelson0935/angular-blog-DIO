@@ -1,0 +1,24 @@
+.bar {
+  width: 99%;
+  height: 100px;
+  margin: 10px auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar ul {
+  width: 400px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bar ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.bar ul li a {
+  text-decoration: none;
+}
