@@ -16,6 +16,9 @@ export class SmallCardComponent implements OnInit {
   @Input()
   paragrafo: string = ''
 
+  @Input()
+  href: string = ''
+
 
   ngOnInit(): void {
   }
